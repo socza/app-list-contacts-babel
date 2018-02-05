@@ -12,9 +12,9 @@ var ContactForm = React.createClass({
                     value={this.props.contact.firstName}
                 />
                 <input 
-                     type={'text'}
-                     placeholder={'Nazwisko'}
-                     value={this.props.contact.lastName}
+                    type={'text'}
+                    placeholder={'Nazwisko'}
+                    value={this.props.contact.lastName}
                 />
                 <input
                     type={'email'}
